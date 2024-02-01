@@ -1,7 +1,7 @@
 import * as XLSX from "xlsx";
 
 const data = XLSX.readFile(
-  "./srv/data/TABULKY_STEM_pro_CRo_hlavni_soubor.xls",
+  "./data/TABULKY_STEM_pro_CRo_hlavni_soubor.xls",
   { dense: true },
 );
 
@@ -16,4 +16,4 @@ const qs = data.Sheets["Celá veřejnost 18+"].reduce((acc, row, i) => {
 
 console.log(qs);
 
-Bun.write("./srv/data/qas.json", JSON.stringify(qs, null, 2));
+Bun.write("./data/qas.json", JSON.stringify(qs, null, 2));
