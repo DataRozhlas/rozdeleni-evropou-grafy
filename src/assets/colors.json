@@ -1,0 +1,271 @@
+[
+    {
+        "colors": [
+            "#db3d78",
+            "#5651ce"
+        ],
+        "palette": "div-2",
+        "questions": [
+            8,
+            9,
+            10,
+            11,
+            19
+        ]
+    },
+    {
+        "colors": [
+            "#5651ce",
+            "#db3d78",
+            "#ccc6c8"
+        ],
+        "palette": "div-2+1",
+        "questions": [
+            68,
+            69,
+            70,
+            71
+        ]
+    },
+    {
+        "colors": [
+            "#a39399",
+            "#ccc6c8",
+            "#db3d78",
+            "#5651ce"
+        ],
+        "palette": "div-2+2",
+        "questions": [
+            17
+        ]
+    },
+    {
+        "colors": [
+            "#b8adb1",
+            "#db3d78",
+            "#5651ce"
+        ],
+        "palette": "div-3",
+        "questions": [
+            43
+        ]
+    },
+    {
+        "colors": [
+            "#5651ce",
+            "#db3d78",
+            "#b8adb1"
+        ],
+        "palette": "div-3-op",
+        "questions": [
+            54
+        ]
+    },
+    {
+        "colors": [
+            "#db3d78",
+            "#e293b3",
+            "#85a1e0",
+            "#5651ce"
+        ],
+        "palette": "div-4",
+        "questions": [
+            2,
+            3,
+            5,
+            7,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            35,
+            36,
+            37,
+            42
+        ]
+    },
+    {
+        "colors": [
+            "#ccc6c8",
+            "#db3d78",
+            "#e293b3",
+            "#85a1e0",
+            "#5651ce"
+        ],
+        "palette": "div-4+1",
+        "questions": [
+            66
+        ]
+    },
+    {
+        "colors": [
+            "#db3d78",
+            "#e293b3",
+            "#eacd92",
+            "#85a1e0",
+            "#5651ce"
+        ],
+        "palette": "div-5",
+        "questions": [
+            4
+        ]
+    },
+    {
+        "colors": [
+            "#5651ce",
+            "#85a1e0",
+            "#eacd92",
+            "#e293b3",
+            "#db3d78"
+        ],
+        "palette": "div-5-geo",
+        "questions": [
+            6
+        ]
+    },
+    {
+        "colors": [
+            "#ccc6c8",
+            "#db3d78",
+            "#e293b3",
+            "#eacd92",
+            "#85a1e0",
+            "#5651ce"
+        ],
+        "palette": "div-5+1",
+        "questions": [
+            34,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+        ]
+    },
+    {
+        "colors": [
+            "#ccc6c8",
+            "#ce3272",
+            "#e2728f",
+            "#e8a6a6",
+            "#92b8dd",
+            "#6685d1",
+            "#4850bc"
+        ],
+        "palette": "div-6+1",
+        "questions": [
+            20,
+            21,
+            22
+        ]
+    },
+    {
+        "colors": [
+            "#c2babd",
+            "#f9b393",
+            "#f78187",
+            "#ce3272"
+        ],
+        "palette": "seq-4",
+        "questions": [
+            12,
+            13,
+            14,
+            15,
+            16
+        ]
+    },
+    {
+        "colors": [
+            "#db3d78",
+            "#f78187",
+            "#f2c093",
+            "#85a1e0",
+            "#5651ce"
+        ],
+        "palette": "cat-5",
+        "questions": [
+            39
+        ]
+    },
+    {
+        "colors": null,
+        "palette": "cat-10",
+        "questions": [
+            18
+        ]
+    },
+    {
+        "colors": [
+            "#847e80",
+            "#ccc6c8",
+            "#5651ce",
+            "#db3d78"
+        ],
+        "palette": "cat-2+2",
+        "questions": [
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+        ]
+    },
+    {
+        "colors": [
+            "#5651ce",
+            "#db3d78",
+            "#f78187",
+            "#f2c093",
+            "#ccc6c8"
+        ],
+        "palette": "cat-4+1",
+        "questions": []
+    },
+    {
+        "colors": null,
+        "palette": "nesmysl",
+        "questions": []
+    },
+    {
+        "colors": [
+            "#db3d78",
+            "#fca870",
+            "#4850bc",
+            "#ccc6c8"
+        ],
+        "palette": "seq-3+1",
+        "questions": [
+            73
+        ]
+    },
+    {
+        "colors": [
+            "#4850bc",
+            "#85a1e0",
+            "#f2c093"
+        ],
+        "palette": "seq-3",
+        "questions": [
+            38
+        ]
+    }
+]
