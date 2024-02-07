@@ -1,5 +1,5 @@
 import './App.css'
-import { useState, useEffect, useRef, memo } from 'react'
+import { useState, memo } from 'react'
 import data from "../srv/data/qas.json"
 import Highcharts from 'highcharts';
 import {
@@ -10,6 +10,7 @@ import {
   XAxis,
   YAxis,
   BarSeries,
+  Legend,
 } from "react-jsx-highcharts";
 
 type Item = {
@@ -24,7 +25,7 @@ Highcharts.setOptions({
   },
 });
 
-const MyChart = memo(({ item }: { item: Item }) => {
+const MyChart = memo(({ item, index}: { item: Item, index: number }) => {
   return (
     <HighchartsChart key={crypto.randomUUID()} plotOptions={{
       series: {
@@ -34,15 +35,16 @@ const MyChart = memo(({ item }: { item: Item }) => {
       },
     }}>
       <Chart type="bar" />
-      <Title>{item.q}</Title>
+      <Title>{`${index+1}. ${item.q}`}</Title>
       <XAxis type="category" categories={["Celá populace", "Euronadšenci", "Příznivci EU", "Vlažní příznivci", "Nejistí", "Odpůrci EU", "Radikální odpůrci"]} />
-      <YAxis>
+      <YAxis max={100}>
         {item.a.map((answer, index) => {
           const name = answer[0].toString()
-          const data = answer.slice(1, 7)
+          const data = answer.slice(1, 8)
           return <BarSeries key={index} name={name} data={data} stacking='normal' />
         })}
       </YAxis>
+      <Legend reversed={true} verticalAlign='top'/>
     </HighchartsChart>
   )
 })
@@ -50,28 +52,16 @@ const MyChart = memo(({ item }: { item: Item }) => {
 
 function App() {
   const [page, setPage] = useState(5);
-  const [items, setItems] = useState(data.slice(0, 4));
-  const [isLoading, setIsLoading] = useState(false);
+  const [items, setItems] = useState(data.slice(0, 5));
 
-  useEffect(() => {
-    const getItems = async () => {
-      try {
-        setIsLoading(true);
-        const newData = data.slice(page, page + 4);
-        console.log(data);
-        setItems((prev) => [...prev, ...newData]);
-        setIsLoading(false);
-      } catch (error) { }
-    };
-    getItems();
-  }, [page]);
-
-  window.onscroll = function (e) {
+  window.onscroll = function () {
     if (
       window.innerHeight + document.documentElement.scrollTop ===
       document.documentElement.offsetHeight
     ) {
-      setPage(page + 5);
+      setPage((prev) => prev + 5);
+      setItems((prev) => [...prev, ...data.slice(page, page + 5)]);
+
     }
   };
 
@@ -79,8 +69,8 @@ function App() {
     <div className="App">
       <HighchartsProvider Highcharts={Highcharts}>
 
-        {items.map((item) =>
-          <MyChart item={item} />)}
+        {items.map((item, index) =>
+          <MyChart item={item} index={index}/>)}
       </HighchartsProvider>
     </div>
   )
