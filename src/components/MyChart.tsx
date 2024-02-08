@@ -6,6 +6,7 @@ import {
     YAxis,
     BarSeries,
     Legend,
+    Tooltip
 } from "react-jsx-highcharts";
 
 import colors from "../assets/colors.json";
@@ -23,10 +24,15 @@ const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed
 
     return (
         <div key={crypto.randomUUID()}>
-            <h2 className="text-xl font-bold text-center">{!embed ? `${index + 1}. ${item.q}` : `${item.q}` }</h2>
+            <h2 className="text-xl font-bold text-center">{!embed ? `${index + 1}. ${item.q}` : `${item.q}`}</h2>
             <HighchartsChart plotOptions={{
                 bar: {
                     pointWidth: 100,
+                    events: {
+                        legendItemClick: function () {
+                            return false;
+                        }
+                    }
                 },
                 series: {
                     animation: false,
@@ -43,6 +49,7 @@ const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed
                     })}
                 </YAxis>
                 <Legend reversed={true} verticalAlign='top' floating={false} />
+                <Tooltip valueDecimals={1} valueSuffix=" %" />
             </HighchartsChart>
             <HighchartsChart plotOptions={{
                 bar: {
@@ -63,6 +70,7 @@ const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed
                         return <BarSeries key={index} name={name} data={data} stacking='normal' color={thisChartColors[index]} />
                     })}
                 </YAxis>
+                <Tooltip valueDecimals={1} valueSuffix=" %" />
             </HighchartsChart>
 
         </div>
