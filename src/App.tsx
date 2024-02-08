@@ -7,6 +7,8 @@ import {
 
 import MyChart from './components/MyChart'
 
+import { Button } from './components/ui/button';
+
 Highcharts.setOptions({
   lang: {
     numericSymbols: [" tis.", " mil.", " mld.", " tril.", " kvadril."],
@@ -34,7 +36,10 @@ function App() {
       <HighchartsProvider Highcharts={Highcharts}>
 
         {items.map((item, index) =>
-          <MyChart item={item} index={index}/>)}
+          <div className={"pb-12 flex flex-col"}>
+            <MyChart item={item} index={index} embed={false} />
+            <Button className={"max-w-md self-center"} variant={"outline"} onClick={() => {alert("ahoj")}}>{`Zkopírovat embed kód grafu ${index+1}`}</Button>
+          </div>)}
       </HighchartsProvider>
     </div>
   )
