@@ -1,4 +1,3 @@
-import './App.css'
 import { useState } from 'react'
 import data from "../srv/data/qas.json"
 import Highcharts from 'highcharts';
