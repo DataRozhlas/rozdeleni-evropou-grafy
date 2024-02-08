@@ -8,6 +8,8 @@ import {
 import MyChart from './components/MyChart'
 
 import { Button } from './components/ui/button';
+import { Toaster } from "@/components/ui/toaster"
+import { useToast } from "@/components/ui/use-toast"
 
 Highcharts.setOptions({
   lang: {
@@ -19,6 +21,7 @@ Highcharts.setOptions({
 function App() {
   const [page, setPage] = useState(5);
   const [items, setItems] = useState(data.slice(0, 5));
+  const { toast } = useToast()
 
   window.onscroll = function () {
     if (
@@ -38,9 +41,10 @@ function App() {
         {items.map((item, index) =>
           <div className={"pb-12 flex flex-col"}>
             <MyChart item={item} index={index} embed={false} />
-            <Button className={"max-w-md self-center"} variant={"outline"} onClick={() => {alert("ahoj")}}>{`Zkopírovat embed kód grafu ${index+1}`}</Button>
+            <Button className={"max-w-md self-center"} variant={"outline"} onClick={() => { toast({ title: "Embed kód máte zkopírovaný ve schránce", description: "Pomocí Ctrl+V ho můžete vložit do článku" }); navigator.clipboard.writeText(`<iframe src="https://data.irozhlas.cz/rozdeleni-evropou-grafy/?id=${index + 1}" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="730" id="rozdeleni-evropou-graf-${index + 1}}"></iframe> <script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["cro-embed-height"])for(var e in a.data["cro-embed-height"])if("rozdeleni-evropou-graf-${index + 1}}"==e){var d=document.querySelector("#rozdeleni-evropou-graf-${index + 1}}");d&&(d.style.height=a.data["cro-embed-height"][e]+"px")}});</script>`) }}>{`Zkopírovat embed kód grafu ${index + 1}`}</Button>
           </div>)}
       </HighchartsProvider>
+      <Toaster />
     </div>
   )
 }
