@@ -61,7 +61,7 @@ const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed
                     states: { hover: { enabled: false } }, // disable hover
                 }
             }}>
-                <Chart type="bar" height={320} margin={[0, 20, 0, 120]} />
+                <Chart type="bar" height={320} margin={[0, 20, 50, 120]} />
                 <XAxis type="category" categories={["Euronadšenci", "Příznivci EU", "Vlažní příznivci", "Nejistí", "Odpůrci EU", "Radikální odpůrci"]} />
                 <YAxis max={100} labels={{ formatter: function () { return this.isLast ? `${this.value} %` : this.value.toString() } }}>
                     {item.a.map((answer, index) => {
