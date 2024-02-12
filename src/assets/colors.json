@@ -201,7 +201,7 @@
         ]
     },
     {
-        "colors": null,
+        "colors": ["#847e80", "#ccc6c8", "#db3d78", "#e8a6a6", "#4850bc", "#92b8dd", "#f2c093", "#d87d3f", "#8bc9c7", "#4da7bc"],
         "palette": "cat-10",
         "questions": [
             18

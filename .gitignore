@@ -12,8 +12,6 @@ dist
 dist-ssr
 *.local
 
-srv/data
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -24,3 +22,4 @@ srv/data
 *.njsproj
 *.sln
 *.sw?
+srv/data/.~lock.TABULKY_STEM_pro_CRo_hlavni_soubor.xls#
