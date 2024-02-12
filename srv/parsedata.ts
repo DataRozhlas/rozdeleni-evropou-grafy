@@ -19,11 +19,11 @@ const qs = data.Sheets["Celá veřejnost 18+"].reduce((acc, row, i) => {
 }, []);
 
 const result = qs.map((item, index) => {
-  if (index === 5) {
+  if ([5, 39, 40].includes(index)) {
     const reversedA = item.a.reverse();
     return { q: item.q, a: reversedA };
   }
   return item;
 });
 
-Bun.write("./data/qas.json", JSON.stringify(qs, null, 2));
+Bun.write("./data/qas.json", JSON.stringify(result, null, 2));

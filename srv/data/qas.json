@@ -355,7 +355,7 @@
     ]
   },
   {
-    "q": "Jste hrdý(á) na to, že jste: - Občanem obce, kde žijete.",
+    "q": "Jste hrdý(á) na to, že jste občanem obce, kde žijete?",
     "a": [
       [
         "Ano",
@@ -380,7 +380,7 @@
     ]
   },
   {
-    "q": "Občanem České republiky.",
+    "q": "\n\nJste hrdý(á) na to, že jste občanem České republiky?",
     "a": [
       [
         "Ano",
@@ -405,7 +405,7 @@
     ]
   },
   {
-    "q": "Součástí Evropské unie.",
+    "q": "Jste hrdý(á) na to, že jste součástí Evropské unie?",
     "a": [
       [
         "Ano",
@@ -430,7 +430,7 @@
     ]
   },
   {
-    "q": "Evropan/Evropanka.",
+    "q": "Jste hrdý(á) na to, že jste Evropan/Evropanka?",
     "a": [
       [
         "Ano",
@@ -455,7 +455,7 @@
     ]
   },
   {
-    "q": "Jak se zajímáte o následující záležitosti? - O zahraniční politiku ČR",
+    "q": "Jak se zajímáte o zahraniční politiku ČR?",
     "a": [
       [
         "Velmi mnoho",
@@ -500,7 +500,7 @@
     ]
   },
   {
-    "q": "O Evropskou unii",
+    "q": "Jak se zajímáte o Evropskou unii?",
     "a": [
       [
         "Velmi mnoho",
@@ -545,7 +545,7 @@
     ]
   },
   {
-    "q": "O využívání fondů EU",
+    "q": "Jak se zajímáte o využívání fondů EU?",
     "a": [
       [
         "Velmi mnoho",
@@ -830,7 +830,7 @@
     ]
   },
   {
-    "q": "Víte o tom, že se příští rok, v červnu 2024, budou konat volby do Evropského parlamentu?",
+    "q": "Víte o tom, že se v červnu 2024, budou konat volby do Evropského parlamentu?",
     "a": [
       [
         "Ano",
@@ -855,7 +855,7 @@
     ]
   },
   {
-    "q": "Která z následujících možností nejlépe vystihuje Vaše odhodlání ohledně voleb, které se budou v ČR konat v příštích dvou letech? - Volby do Evropského parlamentu na jaře 2024",
+    "q": "Která z následujících možností nejlépe vystihuje Vaše odhodlání ohledně voleb do Evropského parlamentu na jaře 2024?",
     "a": [
       [
         "Určitě půjdu volit",
@@ -930,7 +930,7 @@
     ]
   },
   {
-    "q": "Volby do krajských zastupitelstev na podzim 2024",
+    "q": "Která z následujících možností nejlépe vystihuje Vaše odhodlání ohledně voleb do krajských zastupitelstev na podzim 2024?",
     "a": [
       [
         "Určitě půjdu volit",
@@ -1005,7 +1005,7 @@
     ]
   },
   {
-    "q": "Volby do Poslanecké sněmovny ČR na podzim 2025",
+    "q": "Která z následujících možností nejlépe vystihuje Vaše odhodlání ohledně voleb do Poslanecké sněmovny ČR na podzim 2025?",
     "a": [
       [
         "Určitě půjdu volit",
@@ -1865,30 +1865,20 @@
     ]
   },
   {
-    "q": "V Evropské unii se diskutuje o tom, jak by měla EU fungovat v budoucnu. Prosím, uveďte, se kterým z následujících výroků souhlasíte.",
+    "q": "Prosím, uveďte, se kterým z následujících výroků souhlasíte: 1. Evropská unie by měla ve světě vystupovat jednotně, i když to bude znamenat, že některé členské státy s tím nebudou někdy souhlasit. 2. Evropská unie by měla méně postoje členských států koordinovat a sjednocovat, i když to bude znamenat její slabší pozici ve světě.",
     "a": [
       [
-        "Rozhodně souhlasím s výrokem vlevo",
-        15.125358158792151,
-        37.70539766817661,
-        16.8232779153784,
-        15.304809708233726,
-        12.495759224694867,
-        8.058816219775284,
-        14.487801060099256
+        "Rozhodně souhlasím s výrokem 2",
+        16.02590893913664,
+        6.770920938730564,
+        3.8390082173425504,
+        5.770393202481968,
+        13.693643156845994,
+        23.087853333920595,
+        38.91483669626824
       ],
       [
-        "Spíše souhlasím s výrokem vlevo",
-        37.95612520076273,
-        47.72411529012341,
-        56.29596492735245,
-        48.44517951879149,
-        37.14635297818641,
-        27.1604262741885,
-        20.94656487322035
-      ],
-      [
-        "Spíše souhlasím s výrokem vpravo",
+        "Spíše souhlasím s výrokem 2",
         30.892607701308393,
         7.799566102969482,
         23.041748939926702,
@@ -1898,42 +1888,42 @@
         25.650797370412043
       ],
       [
-        "Rozhodně souhlasím s výrokem vpravo",
-        16.02590893913664,
-        6.770920938730564,
-        3.8390082173425504,
-        5.770393202481968,
-        13.693643156845994,
-        23.087853333920595,
-        38.91483669626824
+        "Spíše souhlasím s výrokem 1",
+        37.95612520076273,
+        47.72411529012341,
+        56.29596492735245,
+        48.44517951879149,
+        37.14635297818641,
+        27.1604262741885,
+        20.94656487322035
+      ],
+      [
+        "Rozhodně souhlasím s výrokem 1",
+        15.125358158792151,
+        37.70539766817661,
+        16.8232779153784,
+        15.304809708233726,
+        12.495759224694867,
+        8.058816219775284,
+        14.487801060099256
       ]
     ]
   },
   {
-    "q": "Podobně se v EU diskutuje o tom, jak by měli její členové hlasovat o společných rozhodnutích. Prosím, uveďte, se kterým z následujících výroků souhlasíte.",
+    "q": "Prosím, uveďte, se kterým z následujících výroků souhlasíte: 1. Je lepší občas některé státy přehlasovat, hlavně aby EU fungovala rychle a efektivně. 2. Je lepší trvat na souhlasu všech členů EU, i když to bude znamenat pomalost a zdlouhavé rozhodování.",
     "a": [
       [
-        "Rozhodně souhlasím s výrokem vlevo",
-        14.892885119901097,
-        23.836032129193782,
-        13.447925484674103,
-        14.832948039135266,
-        12.959207996577494,
-        11.940265183288512,
-        18.166800697136164
+        "Rozhodně souhlasím s výrokem 2",
+        18.71992421933937,
+        12.307879699164763,
+        5.308866961288632,
+        11.020504339645878,
+        14.064745922204375,
+        26.156601449074614,
+        39.592563497872796
       ],
       [
-        "Spíše souhlasím s výrokem vlevo",
-        35.994951499625245,
-        39.29833067878809,
-        51.64737958070216,
-        45.12774099717617,
-        37.89425718267046,
-        28.20114025398071,
-        18.169091315378758
-      ],
-      [
-        "Spíše souhlasím s výrokem vpravo",
+        "Spíše souhlasím s výrokem 2",
         30.392239161134192,
         24.557757492853415,
         29.595827973335194,
@@ -1943,14 +1933,24 @@
         24.071544489612165
       ],
       [
-        "Rozhodně souhlasím s výrokem vpravo",
-        18.71992421933937,
-        12.307879699164763,
-        5.308866961288632,
-        11.020504339645878,
-        14.064745922204375,
-        26.156601449074614,
-        39.592563497872796
+        "Spíše souhlasím s výrokem 1",
+        35.994951499625245,
+        39.29833067878809,
+        51.64737958070216,
+        45.12774099717617,
+        37.89425718267046,
+        28.20114025398071,
+        18.169091315378758
+      ],
+      [
+        "Rozhodně souhlasím s výrokem 1",
+        14.892885119901097,
+        23.836032129193782,
+        13.447925484674103,
+        14.832948039135266,
+        12.959207996577494,
+        11.940265183288512,
+        18.166800697136164
       ]
     ]
   },
@@ -2000,7 +2000,7 @@
     ]
   },
   {
-    "q": "A změnil se od loňského podzimu Váš názor na to, jestli mezi sebou země EU zvládnou být solidární v otázce dodávek energií?",
+    "q": "Změnil se od loňského podzimu Váš názor na to, jestli mezi sebou země EU zvládnou být solidární v otázce dodávek energií?",
     "a": [
       [
         "K lepšímu",
@@ -2035,7 +2035,7 @@
     ]
   },
   {
-    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly z následujících oblastí? - Boj proti změně klimatu",
+    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly týkající se boje proti změně klimatu?",
     "a": [
       [
         "1 - Určitě ano",
@@ -2100,7 +2100,7 @@
     ]
   },
   {
-    "q": "Ochrana životního prostředí",
+    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly týkající se ochrany životního prostředí?",
     "a": [
       [
         "1 - Určitě ano",
@@ -2165,7 +2165,7 @@
     ]
   },
   {
-    "q": "Řešení problémů spojených s přistěhovalectvím",
+    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly týkající se řešení problémů spojených s přistěhovalectvím?",
     "a": [
       [
         "1 - Určitě ano",
@@ -2230,7 +2230,7 @@
     ]
   },
   {
-    "q": "Udržení stability hospodářství EU",
+    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly týkající se udržení stability hospodářství EU?",
     "a": [
       [
         "1 - Určitě ano",
@@ -2295,7 +2295,7 @@
     ]
   },
   {
-    "q": "Zajištění bezpečnosti uvnitř EU",
+    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly týkající se zajištění bezpečnosti uvnitř EU?",
     "a": [
       [
         "1 - Určitě ano",
@@ -2360,7 +2360,7 @@
     ]
   },
   {
-    "q": "Zajištění obranyschopnosti EU",
+    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly týkající se zajištění obranyschopnosti EU?",
     "a": [
       [
         "1 - Určitě ano",
@@ -2425,7 +2425,7 @@
     ]
   },
   {
-    "q": "Boj proti dezinformacím",
+    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly týkající se boje proti dezinformacím?",
     "a": [
       [
         "1 - Určitě ano",
@@ -2490,7 +2490,7 @@
     ]
   },
   {
-    "q": "Podpora inovací, vývoje a vědy",
+    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly týkající se podpory inovací, vývoje a vědy?",
     "a": [
       [
         "1 - Určitě ano",
@@ -2555,7 +2555,7 @@
     ]
   },
   {
-    "q": "Zlepšení přístupu občanů ke vzdělání a odborné přípravě",
+    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly týkající se zlepšení přístupu občanů ke vzdělání a odborné přípravě?",
     "a": [
       [
         "1 - Určitě ano",
@@ -2620,7 +2620,7 @@
     ]
   },
   {
-    "q": "Omezení projevů extremismu",
+    "q": "Měla by Evropská unie v blízké budoucnosti řešit přednostně úkoly týkající se omezení projevů extremismu?",
     "a": [
       [
         "1 - Určitě ano",
@@ -2765,7 +2765,7 @@
     ]
   },
   {
-    "q": "Hloupí",
+    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Hloupí",
     "a": [
       [
         "Zastánci EU",
@@ -2810,7 +2810,7 @@
     ]
   },
   {
-    "q": "Neinformovaní",
+    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Neinformovaní",
     "a": [
       [
         "Zastánci EU",
@@ -2855,7 +2855,7 @@
     ]
   },
   {
-    "q": "Elitáři",
+    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Elitáři",
     "a": [
       [
         "Zastánci EU",
@@ -2900,7 +2900,7 @@
     ]
   },
   {
-    "q": "Poučují",
+    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Poučují",
     "a": [
       [
         "Zastánci EU",
@@ -2945,7 +2945,7 @@
     ]
   },
   {
-    "q": "Povyšují se",
+    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Povyšují se",
     "a": [
       [
         "Zastánci EU",
@@ -2990,7 +2990,7 @@
     ]
   },
   {
-    "q": "Realisté",
+    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Realisté",
     "a": [
       [
         "Zastánci EU",
@@ -3035,7 +3035,7 @@
     ]
   },
   {
-    "q": "Vlastizrádci",
+    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Vlastizrádci",
     "a": [
       [
         "Zastánci EU",
@@ -3080,7 +3080,7 @@
     ]
   },
   {
-    "q": "Vlastenci",
+    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Vlastenci",
     "a": [
       [
         "Zastánci EU",
@@ -3125,7 +3125,7 @@
     ]
   },
   {
-    "q": "Nerozumí světu",
+    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Nerozumí světu",
     "a": [
       [
         "Zastánci EU",
@@ -3170,7 +3170,7 @@
     ]
   },
   {
-    "q": "Nemají zkušenosti",
+    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Nemají zkušenosti",
     "a": [
       [
         "Zastánci EU",
@@ -3360,7 +3360,7 @@
     ]
   },
   {
-    "q": "Evropská rada",
+    "q": "V jakých orgánech má ČR zastoupení? Možnost více odpovědí. - Evropská rada",
     "a": [
       [
         "Bez odpovědi",
@@ -3395,7 +3395,7 @@
     ]
   },
   {
-    "q": "Evropská komise",
+    "q": "V jakých orgánech má ČR zastoupení? Možnost více odpovědí. - Evropská komise",
     "a": [
       [
         "Bez odpovědi",
@@ -3430,7 +3430,7 @@
     ]
   },
   {
-    "q": "Rada EU",
+    "q": "V jakých orgánech má ČR zastoupení? Možnost více odpovědí. - Rada EU",
     "a": [
       [
         "Bez odpovědi",
