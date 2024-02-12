@@ -53,8 +53,8 @@
     {
         "colors": [
             "#5651ce",
-            "#db3d78",
-            "#b8adb1"
+            "#b8adb1",
+            "#db3d78"
         ],
         "palette": "div-3-op",
         "questions": [
@@ -216,10 +216,10 @@
     },
     {
         "colors": [
-            "#847e80",
             "#ccc6c8",
-            "#5651ce",
-            "#db3d78"
+            "#db3d78",
+            "#847e80",
+            "#5651ce"
         ],
         "palette": "cat-2+2",
         "questions": [
@@ -245,13 +245,13 @@
             "#ccc6c8"
         ],
         "palette": "cat-4+1",
-        "questions": []
+        "questions": [67, 72]
     },
     {
         "colors": [
+            "#5651ce",
             "#db3d78",
-            "#fca870",
-            "#4850bc",
+            "#f78187",
             "#ccc6c8"
         ],
         "palette": "seq-3+1",

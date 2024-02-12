@@ -26,6 +26,25 @@ const result = qs.map((item, index) => {
   if ([42].includes(index)) {
     return { q: item.q, a: [item.a[1], item.a[2], item.a[0]] };
   }
+  if (
+    [
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+    ].includes(index)
+  ) {
+    console.log(item)
+    return { q: item.q, a: [item.a[0], item.a[3], item.a[1], item.a[2]] };
+  }
+
   return item;
 });
 
