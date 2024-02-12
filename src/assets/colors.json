@@ -41,9 +41,9 @@
     },
     {
         "colors": [
+            "#5651ce",
             "#b8adb1",
-            "#db3d78",
-            "#5651ce"
+            "#db3d78"
         ],
         "palette": "div-3",
         "questions": [

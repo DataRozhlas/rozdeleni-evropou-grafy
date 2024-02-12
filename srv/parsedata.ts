@@ -23,6 +23,9 @@ const result = qs.map((item, index) => {
     const reversedA = item.a.reverse();
     return { q: item.q, a: reversedA };
   }
+  if ([42].includes(index)) {
+    return { q: item.q, a: [item.a[1], item.a[2], item.a[0]] };
+  }
   return item;
 });
 
