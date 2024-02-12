@@ -6,14 +6,24 @@ const data = XLSX.readFile(
 );
 
 const qs = data.Sheets["Celá veřejnost 18+"].reduce((acc, row, i) => {
-  if (i > 2 && i < 549 && row[0]) acc = [...acc, { q: row[0].v, a: [row.slice(1,9).map((a) => a.v)] }];
-  if (i > 2 && i < 549 && row[0]=== undefined && row[1].v !== "Počet") {
-    
-    acc[acc.length-1].a.push(row.slice(1, 9).map((a) => a.v));
+  if (i > 2 && i < 549 && row[0]) {
+    acc = [...acc, {
+      q: row[0].v,
+      a: [row.slice(1, 9).map((a) => a.v)],
+    }];
+  }
+  if (i > 2 && i < 549 && row[0] === undefined && row[1].v !== "Počet") {
+    acc[acc.length - 1].a.push(row.slice(1, 9).map((a) => a.v));
   }
   return acc;
 }, []);
 
-console.log(qs);
+const result = qs.map((item, index) => {
+  if (index === 5) {
+    const reversedA = item.a.reverse();
+    return { q: item.q, a: reversedA };
+  }
+  return item;
+});
 
 Bun.write("./data/qas.json", JSON.stringify(qs, null, 2));
