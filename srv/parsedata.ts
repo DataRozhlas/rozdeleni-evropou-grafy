@@ -6,13 +6,13 @@ const data = XLSX.readFile(
 );
 
 const qs = data.Sheets["Celá veřejnost 18+"].reduce((acc, row, i) => {
-  if (i > 2 && i < 549 && row[0]) {
+  if (i > 2 && i < 396 && row[0]) {
     acc = [...acc, {
       q: row[0].v,
       a: [row.slice(1, 9).map((a) => a.v)],
     }];
   }
-  if (i > 2 && i < 549 && row[0] === undefined && row[1].v !== "Počet") {
+  if (i > 2 && i < 396 && row[0] === undefined && row[1].v !== "Počet") {
     acc[acc.length - 1].a.push(row.slice(1, 9).map((a) => a.v));
   }
   return acc;
