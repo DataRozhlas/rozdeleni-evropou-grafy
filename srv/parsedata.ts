@@ -27,7 +27,7 @@ const result = qs.map((item, index) => {
     return { q: item.q, a: [item.a[1], item.a[2], item.a[0]] };
   }
   if (
-    [
+    [54,
       55,
       56,
       57,
@@ -38,7 +38,6 @@ const result = qs.map((item, index) => {
       62,
       63,
       64,
-      65,
     ].includes(index)
   ) {
     console.log(item)

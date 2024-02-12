@@ -64,7 +64,7 @@ const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed
                 }
             }}>
                 <Chart type="bar" height={isMobile ? 240 : 320} margin={[0, 20, 50, 120]} />
-                <XAxis type="category" categories={["Euronadšenci", "Příznivci EU", "Vlažní příznivci", "Nejistí", "Odpůrci EU", "Radikální odpůrci"]} />
+                <XAxis type="category" categories={["Euronadšenci", "Příznivci", "Vlažní příznivci", "Nejistí", "Odpůrci", "Skalní odpůrci"]} />
                 <YAxis max={100} labels={{ formatter: function () { return this.isLast ? `${this.value} %` : this.value.toString() } }}>
                     {item.a.map((answer, index) => {
                         const name = answer[0].toString()
