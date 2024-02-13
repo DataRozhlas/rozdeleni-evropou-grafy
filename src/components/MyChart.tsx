@@ -29,7 +29,9 @@ const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed
             <h2 className="text-xl font-bold text-center">{!embed ? `${index + 1}. ${item.q}` : `${item.q}`}</h2>
             <HighchartsChart plotOptions={{
                 bar: {
-                    pointWidth: 100,
+                    pointWidth: 60,
+                    pointPadding: 0,
+                    groupPadding: 0.125,
                     events: {
                         legendItemClick: function () {
                             return false;
@@ -41,7 +43,7 @@ const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed
                     states: { hover: { enabled: false } }, // disable hover
                 }
             }}>
-                <Chart type="bar" height={isMobile ? 132 : 176} marginLeft={120} marginBottom={0} marginRight={20} />
+                <Chart type="bar" height={isMobile ? 115 : 176 * 0.7} marginLeft={120} marginBottom={0} marginRight={20} />
                 <XAxis type="category" categories={["Celá populace"]} />
                 <YAxis max={100} labels={{ enabled: false }}>
                     {item.a.map((answer, index) => {
