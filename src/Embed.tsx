@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import data from "../srv/data/qas.json"
 import Highcharts from 'highcharts';
+import ilu from "./assets/rozdeleni-evropou.svg"
 import {
   HighchartsProvider,
 } from "react-jsx-highcharts";
@@ -17,21 +18,27 @@ Highcharts.setOptions({
 });
 
 function Embed({ id }: { id: string }) {
-    const index = parseInt(id) - 1
+  const index = parseInt(id) - 1
 
-    const { containerRef, postHeightMessage } = usePostMessageWithHeight(`rozdeleni-evropou-graf-${id}`);
+  const { containerRef, postHeightMessage } = usePostMessageWithHeight(`rozdeleni-evropou-graf-${id}`);
 
-    useEffect(() => {
-        postHeightMessage();
-    }, []);
+  useEffect(() => {
+    postHeightMessage();
+  }, []);
 
-  return (
+  if (id !== "1") return (
     <div ref={containerRef} className="Embed">
       <HighchartsProvider Highcharts={Highcharts}>
-          <MyChart item={data[index]} index={index} embed={true}/>
+        <MyChart item={data[index]} index={index} embed={true} />
       </HighchartsProvider>
     </div>
-    )
+  )
+  if (id === "1") return (
+    <div ref={containerRef} className="Embed">
+      <img src={ilu} alt="Rozdělení Evropou - segmentace" />
+    </div>
+  )
+
 }
 
 export default Embed
