@@ -19,10 +19,10 @@ const qs = data.Sheets["Celá veřejnost 18+"].reduce((acc, row, i) => {
 }, []);
 
 const result = qs.map((item, index) => {
-  if ([5, 39, 40].includes(index)) {
-    const reversedA = item.a.reverse();
-    return { q: item.q, a: reversedA };
-  }
+  // if ([5, 39, 40].includes(index)) {
+  //   const reversedA = item.a.reverse();
+  //   return { q: item.q, a: reversedA };
+  // }
   if ([42].includes(index)) {
     return { q: item.q, a: [item.a[1], item.a[2], item.a[0]] };
   }
