@@ -65,7 +65,7 @@
     ]
   },
   {
-    "q": "Jsou pro Vás osobně důležité volby do Poslanecké sněmovny Parlamentu ČR?",
+    "q": "Jsou pro vás osobně důležité volby do Poslanecké sněmovny Parlamentu ČR?",
     "a": [
       [
         "Určitě ano",
@@ -110,7 +110,7 @@
     ]
   },
   {
-    "q": "Jsou pro Vás osobně důležité volby do Evropského parlamentu?",
+    "q": "Jsou pro vás osobně důležité volby do Evropského parlamentu?",
     "a": [
       [
         "Určitě ano",
@@ -155,7 +155,7 @@
     ]
   },
   {
-    "q": "Zamyslíte-li se nad vývojem u nás v posledních více než třiceti letech, tj. od listopadu 1989, pociťujete Vy osobně?",
+    "q": "Zamyslíte-li se nad vývojem u nás v posledních více než třiceti letech, tj. od listopadu 1989, pociťujete vy osobně?",
     "a": [
       [
         "Velmi výrazné uspokojení",
@@ -310,7 +310,7 @@
     ]
   },
   {
-    "q": "Je podle Vás nezbytné, aby Česká republika byla součástí širšího celku dalších států, aby mohla uspět při řešení složitých záležitostí?",
+    "q": "Je podle vás nezbytné, aby Česká republika byla součástí širšího celku dalších států, aby mohla uspět při řešení složitých záležitostí?",
     "a": [
       [
         "Určitě ano",
@@ -635,7 +635,7 @@
     ]
   },
   {
-    "q": "Je podle Vás Česká republika schopna hrát v EU aktivní roli a v rozhodování Evropské unie uplatnit své stanovisko?",
+    "q": "Je podle vás Česká republika schopna hrát v EU aktivní roli a v rozhodování Evropské unie uplatnit své stanovisko?",
     "a": [
       [
         "Určitě ano",
@@ -1080,7 +1080,7 @@
     ]
   },
   {
-    "q": "Jste Vy osobně celkově spokojen(a) s naším členstvím v Evropské unii?",
+    "q": "Jste vy osobně celkově spokojen(a) s naším členstvím v Evropské unii?",
     "a": [
       [
         "Určitě ano",
@@ -1125,7 +1125,7 @@
     ]
   },
   {
-    "q": "Cítíte Vy osobně sounáležitost s Evropou, cítíte se být Evropanem?",
+    "q": "Cítíte vy osobně sounáležitost s Evropou, cítíte se být Evropanem?",
     "a": [
       [
         "Určitě ano",
@@ -1305,7 +1305,7 @@
     ]
   },
   {
-    "q": "Je podle Vás Evropská unie solidní zárukou míru a pokojných řešení případných problémů mezi členskými státy EU?",
+    "q": "Je podle vás Evropská unie solidní zárukou míru a pokojných řešení případných problémů mezi členskými státy EU?",
     "a": [
       [
         "Určitě ano",
@@ -1640,7 +1640,7 @@
     ]
   },
   {
-    "q": "Myslíte si, že je zastupitelská demokracie pro ČR nejlepší, i když jsou rozhodnutí kompromisem, který ne vždy odpovídá tomu, co chcete Vy?",
+    "q": "Myslíte si, že je zastupitelská demokracie pro ČR nejlepší, i když jsou rozhodnutí kompromisem, který ne vždy odpovídá tomu, co chcete vy?",
     "a": [
       [
         "Určitě ano",
@@ -2685,7 +2685,7 @@
     ]
   },
   {
-    "q": "Který z následujících popisů podle Vás nejlépe vystihuje postoj české společnosti?",
+    "q": "Který z následujících popisů podle vás nejlépe vystihuje postoj české společnosti?",
     "a": [
       [
         "Společnost se jasně dělí na příznivce a odpůrce EU",
@@ -2720,7 +2720,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Chytří",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Chytří",
     "a": [
       [
         "Zastánci EU",
@@ -2765,7 +2765,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Hloupí",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Hloupí",
     "a": [
       [
         "Zastánci EU",
@@ -2810,7 +2810,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Neinformovaní",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Neinformovaní",
     "a": [
       [
         "Zastánci EU",
@@ -2855,7 +2855,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Elitáři",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Elitáři",
     "a": [
       [
         "Zastánci EU",
@@ -2900,7 +2900,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Poučují",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Poučují",
     "a": [
       [
         "Zastánci EU",
@@ -2945,7 +2945,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Povyšují se",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Povyšují se",
     "a": [
       [
         "Zastánci EU",
@@ -2990,7 +2990,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Realisté",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Realisté",
     "a": [
       [
         "Zastánci EU",
@@ -3035,7 +3035,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Vlastizrádci",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Vlastizrádci",
     "a": [
       [
         "Zastánci EU",
@@ -3080,7 +3080,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Vlastenci",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Vlastenci",
     "a": [
       [
         "Zastánci EU",
@@ -3125,7 +3125,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Nerozumí světu",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Nerozumí světu",
     "a": [
       [
         "Zastánci EU",
@@ -3170,7 +3170,7 @@
     ]
   },
   {
-    "q": "Jací jsou podle Vás zastánci EU a jací jsou její odpůrci? - Nemají zkušenosti",
+    "q": "Jací jsou podle vás zastánci EU a jací jsou její odpůrci? - Nemají zkušenosti",
     "a": [
       [
         "Zastánci EU",
@@ -3215,7 +3215,7 @@
     ]
   },
   {
-    "q": "Mělo by se podle Vás v ČR uskutečnit referendum o vystoupení z Evropské unie?",
+    "q": "Mělo by se podle vás v ČR uskutečnit referendum o vystoupení z Evropské unie?",
     "a": [
       [
         "Určitě ano",
