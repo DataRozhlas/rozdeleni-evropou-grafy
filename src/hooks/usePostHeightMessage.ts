@@ -27,7 +27,7 @@ export const usePostMessageWithHeight = (id: string) => {
       setTimeout(() => postHeightMessage(), 1000);
       setTimeout(() => postHeightMessage(), 5000);
       setTimeout(() => postHeightMessage(), 7500);
-      setTimeout(() => postHeightMessage(), 10000);
+      setTimeout(() => postHeightMessage(), 15000);
     }, 50),
     [postHeightMessage]
   );
