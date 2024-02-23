@@ -11,6 +11,7 @@
     "production": "aws s3 sync dist s3://datarozhlas/rozdeleni-evropou-grafy --acl public-read --delete && aws cloudfront create-invalidation --distribution-id E3ABKG4QXPTL3P --paths '/rozdeleni-evropou-grafy/*'"
   },
   "dependencies": {
+    "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.5",
     "class-variance-authority": "^0.7.0",

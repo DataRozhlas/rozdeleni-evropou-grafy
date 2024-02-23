@@ -6,7 +6,7 @@ import {
   HighchartsProvider,
 } from "react-jsx-highcharts";
 
-import MyChart from './components/MyChart'
+import SingleChart from './components/SingleChart'
 
 import { usePostMessageWithHeight } from "./hooks/usePostHeightMessage";
 
@@ -17,10 +17,10 @@ Highcharts.setOptions({
   },
 });
 
-function EmbedSingle({ id, select }: { id: string, select: string}) {
+function EmbedSingle({ id, select }: { id: string, select: string }) {
   const index = parseInt(id) - 1
 
-  const { containerRef, postHeightMessage } = usePostMessageWithHeight(`rozdeleni-evropou-graf-${id}`);
+  const { containerRef, postHeightMessage } = usePostMessageWithHeight(`rozdeleni-evropou-graf-${id}-${select}`);
 
   useEffect(() => {
     postHeightMessage();
@@ -29,8 +29,7 @@ function EmbedSingle({ id, select }: { id: string, select: string}) {
   if (id !== "1") return (
     <div ref={containerRef} className="Embed">
       <HighchartsProvider Highcharts={Highcharts}>
-        <div>{select}</div>
-        <MyChart item={data[index]} index={index} embed={true} />
+        <SingleChart item={data[index]} index={index} embed={true} select={select} />
       </HighchartsProvider>
     </div>
   )
