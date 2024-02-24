@@ -32,23 +32,25 @@ const MyChart = memo(({ item, index, embed, select }: { item: Item, index: numbe
 
     const thisChartColors: string[] = colors.filter((color) => color.questions.includes(index + 1))[0]?.colors || ["#2caffe", "#544fc5", "#00e272", "#fe6a35", "#6b8abc", "#d568fb", "#2ee0ca", "#fa4b42", "#feb56a", "#91e8e1"]
 
-    return <div className="flex flex-col items-center gap-8"
+    return <div className="flex flex-col items-center"
         key={crypto.randomUUID()}>
         <h2 className="text-xl font-bold text-center">{!embed ? `${index + 1}. ${item.q}` : `${item.q}`}</h2>
-        <Select value={selected} onValueChange={e => setSelected(e)}>
-            <SelectTrigger className="w-[240px]">
-                <SelectValue placeholder="Theme" />
-            </SelectTrigger>
-            <SelectContent>
-                <SelectItem value="1">Euronadšenci</SelectItem>
-                <SelectItem value="2">Příznivci</SelectItem>
-                <SelectItem value="3">Vlažní příznivci</SelectItem>
-                <SelectItem value="4">Nejistí</SelectItem>
-                <SelectItem value="5">Odpůrci</SelectItem>
-                <SelectItem value="6">Skalní odpůrci</SelectItem>
-                <SelectItem value="0">Celá populace</SelectItem>
-            </SelectContent>
-        </Select>
+        <div className="pb-20 pt-2">
+            <Select value={selected} onValueChange={e => setSelected(e)}>
+                <SelectTrigger className="w-[240px]">
+                    <SelectValue placeholder="Theme" />
+                </SelectTrigger>
+                <SelectContent>
+                    <SelectItem value="1">Euronadšenci</SelectItem>
+                    <SelectItem value="2">Příznivci</SelectItem>
+                    <SelectItem value="3">Vlažní příznivci</SelectItem>
+                    <SelectItem value="4">Nejistí</SelectItem>
+                    <SelectItem value="5">Odpůrci</SelectItem>
+                    <SelectItem value="6">Skalní odpůrci</SelectItem>
+                    <SelectItem value="0">Celá populace</SelectItem>
+                </SelectContent>
+            </Select>
+        </div>
         <div className="w-full">
             <HighchartsChart plotOptions={{
                 bar: {

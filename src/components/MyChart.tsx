@@ -18,7 +18,7 @@ type Item = {
 
 const isMobile = window.innerWidth < 640;
 
-const MyChart = memo(({ item, index, embed, select }: { item: Item, index: number, embed: boolean, select?: string }) => {
+const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed: boolean }) => {
 
 
     const thisChartColors: string[] = colors.filter((color) => color.questions.includes(index + 1))[0]?.colors || ["#2caffe", "#544fc5", "#00e272", "#fe6a35", "#6b8abc", "#d568fb", "#2ee0ca", "#fa4b42", "#feb56a", "#91e8e1"]
