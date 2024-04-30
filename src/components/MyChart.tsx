@@ -18,6 +18,8 @@ type Item = {
 
 const isMobile = window.innerWidth < 640;
 
+const roundToOneDecimal = (num: number) => { const result = parseFloat(num.toFixed(1)); return result.toLocaleString("cs-Cz") + " %" };
+
 const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed: boolean }) => {
 
 
@@ -48,7 +50,7 @@ const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed
                     {item.a.toReversed().map((answer, index) => {
                         const name = answer[0].toString()
                         const data = answer.slice(1, 2)
-                        return <BarSeries key={index} name={name} data={data} stacking='normal' color={thisChartColors[index]} />
+                        return <BarSeries key={index} name={name} data={data} stacking='normal' color={thisChartColors[index]} dataLabels={{ enabled: embed ? false : true, allowOverlap: true, padding: 0, formatter: function () { return roundToOneDecimal(this.y || 0) }, color: "#FFFFFF", style: { textOutline: "none" } }} />
                     })}
                 </YAxis>
                 <Legend reversed={true} verticalAlign='top' floating={false} />
@@ -70,7 +72,7 @@ const MyChart = memo(({ item, index, embed }: { item: Item, index: number, embed
                     {item.a.toReversed().map((answer, index) => {
                         const name = answer[0].toString()
                         const data = answer.slice(2, 8)
-                        return <BarSeries key={index} name={name} data={data} stacking='normal' color={thisChartColors[index]} />
+                        return <BarSeries key={index} name={name} data={data} stacking='normal' dataLabels={{ enabled: embed ? false : true, allowOverlap: true, padding: 0, formatter: function () { return roundToOneDecimal(this.y || 0) }, color: "#FFFFFF", style: { textOutline: "none" } }} color={thisChartColors[index]} />
                     })}
                 </YAxis>
                 <Tooltip valueDecimals={1} valueSuffix=" %" />

@@ -19,6 +19,7 @@ Highcharts.setOptions({
 });
 
 
+
 function App() {
   const [page, setPage] = useState(5);
   const [items, setItems] = useState(data.slice(0, 5));
