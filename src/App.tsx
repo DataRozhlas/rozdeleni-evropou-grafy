@@ -27,8 +27,8 @@ function App() {
 
   window.onscroll = function () {
     if (
-      window.innerHeight + document.documentElement.scrollTop ===
-      document.documentElement.offsetHeight
+      window.innerHeight + document.documentElement.scrollTop >=
+      document.documentElement.offsetHeight - 10
     ) {
       setPage((prev) => prev + 5);
       setItems((prev) => [...prev, ...data.slice(page, page + 5)]);
